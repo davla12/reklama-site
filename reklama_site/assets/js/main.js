@@ -31,3 +31,4 @@ function updateLink() {
         link.classList.add("disabled");
     }
 }
+{ id:'modal-letter', title:'3D harflar', rows:[['','','3D harflar']] }

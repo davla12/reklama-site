@@ -128,3 +128,36 @@ footer{background:#000;color:#fff;font-size:.9rem;padding:1.5rem 0;border-radius
     text-align: center !important;
   }
 }
+.lang-switcher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end; /* o‘ng tomonda joylashadi */
+  padding: 10px;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.lang-btn img {
+  width: 20px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.lang-btn:hover {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
