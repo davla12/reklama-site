@@ -90,6 +90,7 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -106,10 +107,9 @@
 
         if (xizmat && telefon) {
             const message = encodeURIComponent(
-                "Assalomu alaykum! Menga kerak: " + xizmat + "
-Telefon raqamim: " + telefon
+                "Assalomu alaykum! Menga kerak: " + xizmat + "\nTelefon raqamim: " + telefon
             );
-            link.href = "https://t.me/share/url?url=" + encodeURIComponent("https://t.me/Novaa_print") + "&text=" + message;
+            link.href = "https://t.me/Novaa_print?text=" + message;
             link.classList.remove("disabled");
         } else {
             link.href = "#";
